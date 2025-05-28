@@ -1,12 +1,12 @@
-# 🔐 Glocker
+# 🔐 Gloscan
 
 > Automatización de reconocimiento en entornos CTF y de pentesting local.
 
 ---
 
-## 📌 ¿Qué es Glocker?
+## 📌 ¿Qué es gloscan?
 
-**Glocker** es un script en Bash diseñado para automatizar tareas iniciales de reconocimiento de red en escenarios de **hacking ético**, **CTF (Capture The Flag)**, o laboratorios de **pentesting local**.
+**Gloscan** es un script en Bash diseñado para automatizar tareas iniciales de reconocimiento de red en escenarios de **hacking ético**, **CTF (Capture The Flag)**, o laboratorios de **pentesting local**.
 
 ---
 
@@ -38,7 +38,7 @@ Todo esto, con mínima intervención por parte del usuario.
 ### A nivel técnico (script):
 
 1. **Verificación de herramientas**: Detecta si `nmap` y `arp-scan` están instaladas, e intenta instalarlas si no.
-2. **Preparación del entorno**: Crea una carpeta `glocker` con subdirectorios para guardar resultados (`nmap/`, `arp-scan/`).
+2. **Preparación del entorno**: Crea una carpeta `gloscan` con subdirectorios para guardar resultados (`nmap/`, `arp-scan/`).
 3. **Selección de interfaz**: Lista interfaces activas y solicita al usuario que seleccione una.
 4. **Obtención de IP local**: Detecta la IP del atacante desde la interfaz indicada.
 5. **IP de la víctima**:
@@ -47,7 +47,7 @@ Todo esto, con mínima intervención por parte del usuario.
 6. **Escaneo con nmap**:
    - Escaneo total de puertos y servicios con scripts (`-sSCV`, `-p-`, `--open`, `-T5`).
    - Filtra dominios detectados y los añade a `/etc/hosts`.
-7. **Resultados**: Se muestran por pantalla y se almacenan en `glocker/resultados_escaneo`.
+7. **Resultados**: Se muestran por pantalla y se almacenan en `gloscan/resultados_escaneo`.
 
 ---
 
