@@ -211,6 +211,7 @@ function final_results(){
 function main(){
     tools_checker
     position
+    banner_block
     welcome
     interface_guesser
     get_ip_attack
