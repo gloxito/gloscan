@@ -54,11 +54,22 @@ Todo esto, con mínima intervención por parte del usuario.
 ## A nivel de uso
 
 1. Descarga el script usando `wget` desde el repositorio oficial.
-```bash
-   wget https://raw.githubusercontent.com/tu_usuario/glocker/main/glocker.sh bash````
+  ``` bash
+   wget https://raw.githubusercontent.com/tu_usuario/glocker/main/glocker.sh bash
 
-3. Asigna permisos de ejecución al script descargado.
+  ```
 
-4. Ejecuta el script, preferiblemente con privilegios de root para asegurar su correcto funcionamiento.
+2. Asigna permisos de ejecución al script descargado.
+
+  ``` bash
+   chmod +x gloker
+
+  ```
+3. Ejecuta el script, preferiblemente con privilegios de root para asegurar su correcto funcionamiento.
+
+``` bash
+   ./gloker
+
+  ```
 
 **Nota:** Ejecutar como root permite que el script use herramientas como `arp-scan` y modifique el archivo `/etc/hosts` sin problemas.
