@@ -55,20 +55,20 @@ Todo esto, con mínima intervención por parte del usuario.
 
 1. Descarga el script usando `wget` desde el repositorio oficial.
   ``` bash
-   wget https://github.com/gloxito/gloker.git
+   wget https://github.com/gloxito/gloscan.git
 
   ```
 
 2. Asigna permisos de ejecución al script descargado.
 
   ``` bash
-   chmod +x gloker
+   chmod +x gloscan
 
   ```
 3. Ejecuta el script, preferiblemente con privilegios de root para asegurar su correcto funcionamiento.
 
 ``` bash
-   ./gloker
+   ./gloscan
 
   ```
 
