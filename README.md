@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 ¿Qué es gloscan?
+## 📌 ¿Qué es Gloscan?
 
 **Gloscan** es un script en Bash diseñado para automatizar tareas iniciales de reconocimiento de red en escenarios de **hacking ético**, **CTF (Capture The Flag)**, o laboratorios de **pentesting local**.
 
