@@ -55,7 +55,7 @@ Todo esto, con mínima intervención por parte del usuario.
 
 1. Descarga el script usando `wget` desde el repositorio oficial.
   ``` bash
-   wget https://raw.githubusercontent.com/tu_usuario/glocker/main/glocker.sh bash
+   wget https://github.com/gloxito/gloker.git
 
   ```
 
