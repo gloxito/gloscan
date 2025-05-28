@@ -65,7 +65,7 @@ function position() {
     mkdir -p gloscan/resultados_escaneo/nmap
     mkdir -p gloscan/resultados_escaneo/arp-scan
     chmod -R 755 glocker
-    cd gloscanr || exit 1
+    cd gloscan || exit 1
   fi
 }
 
