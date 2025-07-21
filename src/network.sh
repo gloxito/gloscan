@@ -5,7 +5,7 @@ function select_interface() {
   ifconfig | grep -E '^[a-zA-Z0-9]+' | awk -F: '{print " ➤", $1}'
 
   while true; do
-    echo -ne "${yellow}[?] Elige una interfaz: ${end}" && read interface
+    echo -ne "\n${yellow}[?] Elige una interfaz: ${end}" && read interface
     if ifconfig "$interface" &>/dev/null; then
       break
     else
